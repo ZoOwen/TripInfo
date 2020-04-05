@@ -172,7 +172,7 @@ export default function Content() {
                 />
                 <CardContent>
                   <Typography gutterBottom variant="h5" component="h2">
-                    Hotel
+                    Moon
                   </Typography>
                   <Typography
                     variant="body2"
