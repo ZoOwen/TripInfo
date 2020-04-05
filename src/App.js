@@ -1,25 +1,26 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import Button from '@material-ui/core/Button';
+import Navbar from './components/Navbar'
+import Sliders from './components/Sliders';
+import Content from './components/Content';
+
+
+const style = {
+  // "background-image": "linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%)",
+  "width": "100%",
+  "height":"100%"
+}
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+ <div style={style}>
+ <Navbar />
+ <Sliders />
+ <br />
+ <Content />
+ </div>
   );
 }
 
