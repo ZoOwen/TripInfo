@@ -21,4 +21,4 @@ isi web :
 4. Slider.js
 5. Content.js
 
-link netifly : [Netifly](tripinforf.netifly.com)
+link netifly : [Netifly](thttps://mytripinfo.netlify.com/)
